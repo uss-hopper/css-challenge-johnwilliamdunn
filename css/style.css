@@ -62,5 +62,11 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+p {
+	font-size: 1.5em;
+	color: #403075;
+	background-image: none;
+	background-color: transparent;
+}
 
 
