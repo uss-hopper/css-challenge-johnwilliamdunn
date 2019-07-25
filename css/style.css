@@ -61,19 +61,20 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-
-
-.header div {
-	color: turquoise;
+header {
+	background: #333;
 }
 
-div ~ p {color: blue;}
-
-
-.class container {
-	color: turquoise;
+section.about-me {
+	background: blue;
+	color: white;
 }
 
+section.about-me {
+	padding: 10rem
+}
 
+body {
+	font-family: sans-serif;
+}
 
-a[class|="container"] {color: dodgerblue;}
