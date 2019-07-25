@@ -62,35 +62,18 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-p {
-	font-size: 1.5em;
-	color: #403075;
-	background-image: none;
-	background-color: transparent;
-}
 
 .header div {
 	color: turquoise;
 }
 
+div ~ p {color: blue;}
+
+
 .class container {
 	color: turquoise;
 }
 
-/* margin: top, right, bottom, left */
-margin: 10px 20px 5px 15px;
 
-/* margin: top, left and right, bottom */
-margin: 10px 20px 15px;
-
-/* margin: top and bottom, left and right */
-margin: 10px 15px;
-
-/* margin: all sides */
-margin: 10px;
-
-background: #000 url("../img/image.jpg") no-repeat top left fixed;
-
-border: 5px solid #000;
 
 a[class|="container"] {color: dodgerblue;}
