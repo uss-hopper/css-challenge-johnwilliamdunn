@@ -70,6 +70,20 @@ section.about-me {
 	color: white;
 }
 
+.about-me {
+	text-align: left;
+	border: solid;
+}
+
+.container {
+	border: 10px;
+	
+}
+element {
+	image-orientation: unset;
+	right: auto;
+}
+
 section.about-me {
 	padding: 10rem
 }
