@@ -77,11 +77,15 @@ section.about-me {
 
 .container {
 	border: 10px;
-	
+
 }
 element {
 	image-orientation: unset;
 	right: auto;
+}
+
+.instructions-content {
+	border-block-color: black;
 }
 
 section.about-me {
