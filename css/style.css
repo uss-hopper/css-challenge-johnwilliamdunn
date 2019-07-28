@@ -98,11 +98,12 @@ img {
 }
 
 .instructions-content {
-	background-color: navajowhite;
-}
-
-.instructions-content {
-	border-block-color: black;
+	background-color: white;
+	height: 50px;
+	width: 200px;
+	padding: 10px;
+	border: 5px solid #555;
+	margin: 20px;
 }
 
 section.about-me {
