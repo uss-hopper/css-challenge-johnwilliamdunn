@@ -65,23 +65,40 @@ header {
 	background: #333;
 }
 
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: chartreuse;
+	margin-top: 0;
+}
+
+em {
+	text-align: center;
+	font-family: sans-serif;
+	color: chartreuse;
+	margin-top: 0;
+
+}
+
 section.about-me {
 	background: blue;
 	color: white;
-}
-
-.about-me {
 	text-align: left;
-	border: solid;
+	border-width: 10px;
 }
 
-.container {
-	border: 10px;
-
+img {
+	display: block;
+	margin: auto;
 }
-element {
-	image-orientation: unset;
-	right: auto;
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.instructions-content {
+	background-color: navajowhite;
 }
 
 .instructions-content {
