@@ -88,8 +88,10 @@ section.about-me {
 }
 
 img {
-	display: block;
-	margin: auto;
+	background-color: white;
+	position: relative;
+	top: 20px;
+	right: 40px;
 }
 
 img {
